@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Feedback Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <p>
+        Dear Customer,<br />
+        Thank you for shopping at Myntra.<br />Please spare some moments to give
+        us your valuable feedback as it will help us in improving our service
+      </p>
+      <h4>Please rate your experience for the following parameters:</h4>
+      <form action="thankYou.html">
+        <div id="exp" class="div">
+          Please rate your overall shopping experience <br /><br />
+          0&nbsp;<input id="slider" type="range" />&nbsp;10 <br /><br />
+        </div>
+        <div id="del" class="div">
+          How Satisfied are you with the delivery experience? <br /><br />
+          <input type="radio" name="delivery" />Very Satisfied <br /><br />
+          <input type="radio" name="delivery" />Satisfied <br /><br />
+          <input type="radio" name="delivery" />poorly Satisfied <br /><br />
+          <input type="radio" name="delivery" />Not at all Satisfied
+          <br /><br />
+        </div>
+        <div id="feedback" class="div">
+          Any suggestions to improve: <br />
+          <textarea name="" id="" cols="100" rows="30"></textarea>
+        </div>
+        <button><input type="submit" /></button>
+        <button><input type="reset" /></button>
+      </form>
+    </div>
+  </body>
+</html>
